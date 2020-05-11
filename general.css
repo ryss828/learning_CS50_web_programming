@@ -55,3 +55,15 @@ input[type=number] {
   color: purple;
   font-weight: bold;
 }
+button {
+  background-color: yellow;
+}
+/* pseudo-class - single colon */
+button:hover {
+  background-color: dodgerBlue;
+}
+/* pseudo-element - double colon */
+p::selection {
+  background-color: yellow;
+  color: red;
+}
