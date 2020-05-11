@@ -48,3 +48,10 @@ body {
 .nameclass {
   font-weight: bold;
 }
+input[type=text] {
+  color: red;
+}
+input[type=number] {
+  color: purple;
+  font-weight: bold;
+}
