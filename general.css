@@ -15,7 +15,6 @@ td {
   text-align: center;
 }
 body {
-  background-color: #EEFFFC;
   /* recommended 100% for body */
   font-size: 100%;
 }
@@ -66,4 +65,10 @@ button:hover {
 p::selection {
   background-color: yellow;
   color: red;
+}
+/* media query */
+@media print {
+  .screen-only {
+    display: none;
+  }
 }
