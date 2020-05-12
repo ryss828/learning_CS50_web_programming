@@ -72,3 +72,9 @@ p::selection {
     display: none;
   }
 }
+/* media query */
+@media (max-width: 499px) {
+  body {
+    background-color: coral;
+  }
+}
