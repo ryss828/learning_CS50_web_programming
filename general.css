@@ -90,3 +90,14 @@ p::selection {
     content: "Welcome to my web page!"
   }
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div {
+  background-color: coral;
+  font-size: 0.75em;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
