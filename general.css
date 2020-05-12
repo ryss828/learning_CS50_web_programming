@@ -101,3 +101,16 @@ p::selection {
   padding: 20px;
   width: 200px;
 }
+.grid {
+  display: grid;
+  background-color: green;
+  grid-column-gap: 20px;
+  grid-template-columns: 100px 100px auto;
+  grid-row-gap: 40px;
+  padding: 20px;
+}
+.grid-item {
+  background-color: #aaffcc;
+  padding: 20px;
+  text-align: center;
+}
