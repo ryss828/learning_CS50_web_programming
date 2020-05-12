@@ -78,3 +78,15 @@ p::selection {
     background-color: coral;
   }
 }
+/* pseudo element and media query */
+@media (max-width: 499px) {
+  h1::before {
+    content: "Welcome!"
+  }
+}
+/* pseudo element and media query */
+@media (min-width: 500px) {
+  h1::before {
+    content: "Welcome to my web page!"
+  }
+}
