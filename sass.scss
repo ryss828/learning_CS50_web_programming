@@ -9,3 +9,27 @@ $varcolor: blue;
   font-size: 2em;
   color: $varcolor;
 }
+
+%cmn-for-all-msgs {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  @extend %cmn-for-all-msgs;
+  background-color: green;
+}
+
+.warning {
+  @extend %cmn-for-all-msgs;
+  background-color: orange;
+}
+
+.error {
+  @extend %cmn-for-all-msgs;
+  background-color: red;
+}
