@@ -6,6 +6,6 @@ app = Flask(__name__)
 def index():
     return "web server by Python flask"
 
-@app.route("/store")
-def store():
-    return "web server by Python flask: it's a store here"
+@app.route("/<string:name>")
+def greet(name):
+    return "web server by Python flask: hello {}".format(name)
