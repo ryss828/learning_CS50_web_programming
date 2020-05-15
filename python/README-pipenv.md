@@ -21,7 +21,7 @@ ImportError: No module named 'flask'
 (python) python using-flask.py
 flask imported
 (python) # write proper flask app
-(python) $ FLASK_APP=using-flask.py flask run  # localhost:5000
+(python) $ FLASK_APP=using-flask-template.py FLASK_ENV=development flask run  # localhost:5000
 ...
 ^C
 (python) $ exit
