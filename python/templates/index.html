@@ -5,7 +5,11 @@
   </head>
   <body>
     <div>
-      Using flax template
+      {% if headline %}
+        <h1>Today's main news: {{ headline }}</h1>
+      {% else %}
+        <h1>Give me a headline</h1>
+      {% endif %}
     </div>
  </body>
 </html>
