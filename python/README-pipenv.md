@@ -1,6 +1,6 @@
 # pipenv
 
-## From setting up pipenv to run flask web application
+## From setting up pipenv to running flask web application
 
 ```bash
 $ pip install --upgrade pip
