@@ -4,8 +4,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "web server by Python flask"
+    return "Web server by Python flask"
 
 @app.route("/<string:name>")
 def greet(name):
-    return "web server by Python flask: hello {}".format(name)
+    name = name.capitalize()
+    return "<h1>Web server by Python flask: hello {}!</h1>".format(name)
