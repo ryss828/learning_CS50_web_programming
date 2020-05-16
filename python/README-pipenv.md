@@ -3,6 +3,7 @@
 ## From setting up pipenv to running flask web application
 
 ```bash
+$ cd <repository root>/python
 $ pip install --upgrade pip
 $ pip install pipenv
 $ pipenv --python 3.5 shell
@@ -22,6 +23,18 @@ ImportError: No module named 'flask'
 flask imported
 (python) # write proper flask app
 (python) $ FLASK_APP=using-flask-template.py FLASK_ENV=development flask run  # localhost:5000
+...
+^C
+(python) $ exit
+```
+
+## Usage
+
+```bash
+$ cd <repository root>/python
+$ pipenv shell
+(python) $ source load-flask-env.sh
+(python) $ ./go url/ry-url.py    # localhost:5000
 ...
 ^C
 (python) $ exit
