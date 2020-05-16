@@ -1,4 +1,4 @@
-# pipenv
+# python 3.5
 
 ## From setting up pipenv to running flask web application
 
@@ -40,3 +40,16 @@ $ pipenv shell
 ^C
 (python) $ exit
 ```
+
+## Learning
+
+- Flask functions can return a simple string, html, or `render_template()`
+- Templates can be fed variables via `render_template()`. Variables are expressed like `{{ name }}`
+- Templates can have Jinja2 controls e.g. `{% if }` and `{% for var in vars }`
+- Template inheritance is like *template method* in Design Pattern. Templates can inherit a base template
+
+## New technology
+
+- Python 3
+- pipenv
+- flask
