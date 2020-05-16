@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def f_main():
-    return render_template("ry-index.html")
+    return render_template("h-index.html")
 
 @app.route("/u-more")
 def f_more():
-    return render_template("ry-more.html")
+    return render_template("h-more.html")
