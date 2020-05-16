@@ -33,8 +33,9 @@ flask imported
 ```bash
 $ cd <repository root>/python
 $ pipenv shell
+(python) $ cd flask/
 (python) $ source load-env.sh
-(python) $ ./go flask-url/p-url.py    # localhost:5000
+(python) $ ./go url/p-url.py    # localhost:5000
 ...
 ^C
 (python) $ exit
