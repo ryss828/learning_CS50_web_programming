@@ -22,7 +22,7 @@ ImportError: No module named 'flask'
 (python) python using-flask.py
 flask imported
 (python) # write proper flask app
-(python) $ FLASK_APP=using-flask-template.py FLASK_ENV=development flask run  # localhost:5000
+(python) $ FLASK_APP=using-flask-template.py flask run  # localhost:5000
 ...
 ^C
 (python) $ exit
@@ -33,8 +33,8 @@ flask imported
 ```bash
 $ cd <repository root>/python
 $ pipenv shell
-(python) $ source load-flask-env.sh
-(python) $ ./go url/p-url.py    # localhost:5000
+(python) $ source load-env.sh
+(python) $ ./go flask-url/p-url.py    # localhost:5000
 ...
 ^C
 (python) $ exit
