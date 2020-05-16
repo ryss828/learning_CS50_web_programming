@@ -44,7 +44,7 @@ $ pipenv shell
 ## Learning
 
 - Flask functions can return a simple string, html, or `render_template()`
-- Templates can be fed variables via `render_template()`. Variables are expressed like `{{ name }}`
+- Templates can be fed variables via `render_template()`. Variables are expressed with 'double curly brackets'
 - Templates can have Jinja2 controls like 'curly bracket percent if'
 - Template inheritance is like *template method* in Design Pattern. Templates can inherit a base template
 
