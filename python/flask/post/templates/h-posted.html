@@ -1,0 +1,10 @@
+{% extends "h-layout.html" %}
+
+{% block content_a %}
+  We are in posted page
+{% endblock %}
+
+{% block content_b %}
+  <p>Hello {{ name }}</p>
+  <a href="{{ url_for('f_main') }}">Go back to main page</a>
+{% endblock %}
