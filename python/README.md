@@ -44,10 +44,10 @@ $ pipenv shell
 ## Learning
 
 - Flask functions can return a simple string, html, or `render_template()`
-- Templates can be fed variables via `render_template()`. Variables are expressed with 'double curly brackets'
+- Templates can be fed variables via `render_template()`. Variables can be referenced in templates using 'double curly brackets'
 - Templates can have Jinja2 controls like 'curly bracket percent if'
 - Template inheritance is like *template method* in Design Pattern. Templates can inherit a base template
-- `@app.route` specified a url and allowed methods against the url
+- `@app.route` specifies a url and allowed methods against the url
 - Flask's `request` have `form` that the client submitted
 - `form` tag specifies
   - url as a target using `action` attribute
