@@ -52,6 +52,8 @@ $ pipenv shell
 - `form` tag specifies
   - url as a target using `action` attribute
   - http method using `method` attribute
+- http methods need to be all capital letters in code e.g. POST
+- Learn about ['The "Confirm Form Resubmission" Problem'](https://khalidabuhakmeh.com/solving-the-confirm-form-resubmission-problem) because it happens `python/flask/post-note/` when refreshing the page after POSTing the form.
 
 ## New technology
 
