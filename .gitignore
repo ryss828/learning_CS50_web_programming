@@ -4,3 +4,5 @@ sass.css
 *.swp
 __pycache__/
 .vscode/
+flask_session/
+
