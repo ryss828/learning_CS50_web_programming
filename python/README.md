@@ -54,6 +54,7 @@ $ pipenv shell
   - http method using `method` attribute
 - http methods need to be all capital letters in code e.g. POST
 - Learn about ['The "Confirm Form Resubmission" Problem'](https://khalidabuhakmeh.com/solving-the-confirm-form-resubmission-problem) because it happens `python/flask/post-note/` when refreshing the page after POSTing the form.
+- Every time a module is needed, do `pipenv install <module name>`. So if the code says 'from flask_session import ...' then do `pipenv install flask_session`
 
 ## New technology
 
