@@ -28,7 +28,7 @@ flask imported
 (python) $ exit
 ```
 
-## Usage
+## General Usage
 
 ```bash
 $ cd <repository root>/python
