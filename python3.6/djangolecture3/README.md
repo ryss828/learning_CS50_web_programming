@@ -32,7 +32,7 @@
 
 14. `cd djangolecture3/`
 15. Ran Django server `python manage.py runserver`
-16. Create a first app: `python manage.py startapp hello`
+16. Created a first app: `python manage.py startapp hello`
 17. The tree is:
 
     ```bash
