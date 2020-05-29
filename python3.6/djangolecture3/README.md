@@ -30,4 +30,7 @@
     └── README.md
     ```
 
+1. `cd djangolecture3/`
+2. Ran Django server `python manage.py runserver`
+
 ## Learning
