@@ -30,7 +30,32 @@
     └── README.md
     ```
 
-1. `cd djangolecture3/`
-2. Ran Django server `python manage.py runserver`
+14. `cd djangolecture3/`
+15. Ran Django server `python manage.py runserver`
+16. Create a first app: `python manage.py startapp hello`
+17. The tree is:
+
+    ```bash
+    djangolecture3/
+    ├── djangolecture3
+    │   ├── asgi.py
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    ├── hello
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── __init__.py
+    │   ├── migrations
+    │   │   └── __init__.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
+    ├── manage.py
+    └── README.md
+    ```
 
 ## Learning
+
+- Django project comprises multiple apps
