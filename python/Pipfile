@@ -10,7 +10,6 @@ rope = "*"
 [packages]
 flask = "*"
 flask-session = "*"
-sqlalchemy = "*"
 
 [requires]
 python_version = "3.5"
