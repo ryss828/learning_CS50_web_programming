@@ -1,0 +1,17 @@
+{% extends "h-layout.html" %}
+
+{% block content_a %}
+  We are in the one and only page; we keep posting itself
+{% endblock %}
+
+{% block content_b %}
+  <ul>
+    {% for one in all_notes %}
+      <li>{{ one }}</li>
+    {% endfor %}
+  </ul>
+  <form action="{{ url_for('f_main') }}" method="POST">
+    <input name="user-note" type="text" placeholder="put in your note">
+    <button type="submit">post it</button>
+  </form>
+{% endblock %}
