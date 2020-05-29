@@ -1,6 +1,8 @@
-# python 3.5
+# python 3.6
 
 ## From setting up pipenv to running flask web application
+
+The following was written when I set up pipenv for python 3.5.
 
 ```bash
 $ cd <repository root>/python
