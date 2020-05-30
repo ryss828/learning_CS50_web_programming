@@ -10,7 +10,7 @@ rope = "*"
 [packages]
 flask = "*"
 flask-session = "*"
-django = "==3.0"
+django = "==3.0.3"
 
 [requires]
 python_version = "3.6"
