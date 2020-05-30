@@ -74,3 +74,6 @@
   - Launch VS Code from within this terminal window (this will ensure the VS Code process will inherit all of the Virtual Env environment settings)
   - If VS Code does not choose the right Python version, choose the correct pipenv one
   - Now the 'Unable to import' errors are gone
+- An app has `url.py` and `views.py`
+  - `url.py` maps urls and functions that are defined in `views.py`
+  - `views.py` defines functions that return either `HttpResponse` or `render()` taking templates
