@@ -63,3 +63,4 @@ $ pipenv shell
 - Python 3
 - pipenv
 - flask
+- Django
