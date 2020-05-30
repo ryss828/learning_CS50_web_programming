@@ -11,6 +11,7 @@ rope = "*"
 flask = "*"
 flask-session = "*"
 django = "==3.0.3"
+pylint = "*"
 
 [requires]
 python_version = "3.6"

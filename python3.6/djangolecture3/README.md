@@ -4,7 +4,7 @@
 
 ## Set-up
 
-1. Tried to install django: `pipenv install django==3.0`
+1. **Installing Django:** `pipenv install django==3.0`
 2. Got error saying python needs to be >= 3.6 (python in pipenv that I was using was 3.5)
 3. Installed python 3.6 globally in Ubuntu
 4. Copied `python/` to `python3.6/`; `cd python3.6/`
@@ -15,7 +15,7 @@
 9. Created `Pipfile.lock` by `pipenv lock` # Generates Pipfile.lock
 10. Just ran `pipenv sync` # Installs all packages specified in Pipfile.lock
 11. Installed Django `pipenv install django==3.0`
-12. Created Django project `django-admin startproject django-lecture3`
+12. **Creating Django project:** `django-admin startproject django-lecture3`
 13. Now the dir tree is:
 
     ```bash
@@ -32,7 +32,7 @@
 
 14. `cd djangolecture3/`
 15. Ran Django server `python manage.py runserver`
-16. Created a first app: `python manage.py startapp hello`
+16. **Creating an app in the project:** `python manage.py startapp hello`
 17. The tree is:
 
     ```bash
@@ -56,6 +56,21 @@
     └── README.md
     ```
 
+18. Add `hello` entry in `INSTALLED_APPS` in `djangolecture3/djangolecture3/settings.py`
+19. Add function that handles http request in `djangolecture3/hello/views.py`
+20. Add `djangolecture3/hello/urls.py` for the app
+21. Link global `url.py` to hello app's `url.py` by adding an entry in `djangolecture3/djangolecture3/urls.py`
+22. `cd djangolecture3; python manage.py runserver`
+23. Put in `http://localhost:8000/hello/` and see `Hello World!`
+
 ## Learning
 
 - Django project comprises multiple apps
+- When pylint complains 'Unable to import...' in VS Code: Solution: open VS Code from an activated virtual environment
+  - Open the terminal window
+  - Activate the relevant python virtual environment
+  - Ensure Pylint is installed within this virtual environment `pipenv install pylint`
+  - Close all instances of VS Code
+  - Launch VS Code from within this terminal window (this will ensure the VS Code process will inherit all of the Virtual Env environment settings)
+  - If VS Code does not choose the right Python version, choose the correct pipenv one
+  - Now the 'Unable to import' errors are gone
