@@ -77,3 +77,17 @@
 - An app has `url.py` and `views.py`
   - `url.py` maps urls and functions that are defined in `views.py`
   - `views.py` defines functions that return either `HttpResponse` or `render()` taking templates
+- Rendering templates
+  - `view.py` defines function that returns `render()`, in which a template (i.e. html) can be specified e.g. `return render(request, "hello/rend_temp.html")`
+  - This arg is the path under `<app>/tempaltes/` directory.
+
+    ```bash
+    $ tree hello
+    hello/
+    ..
+    ├── templates/
+    │   └── hello/
+    │       └── rend_temp.html
+    ├── urls.py
+    └── views.py
+    ```
