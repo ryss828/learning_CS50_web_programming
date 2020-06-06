@@ -7,5 +7,7 @@ def index(request):
 def render_template(request):
     return render(request, "hello/rend_temp.html")
 
-def greet(request, someone):
-    return HttpResponse("Hello, {}!".format(someone.capitalize()))
+def render_template2(request, someone):
+    return render(request, "hello/rend_temp2.html", {
+        "name": someone.capitalize()
+    })

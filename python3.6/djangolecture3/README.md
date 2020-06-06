@@ -91,3 +91,13 @@
     ├── urls.py
     └── views.py
     ```
+
+- Templates can be fed variables. To do so, pass a dictionary to `render()` as a 3rd argument like so:
+
+  ```python
+  return render(request, "hello/rend_temp2.html", {
+      "name": someone.capitalize()
+  })
+  ```
+
+  Use the variables with `{{ }}` in templates.
