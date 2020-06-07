@@ -101,14 +101,3 @@
   ```
 
   Use the variables with `{{ }}` in templates.
-
-- (Debug mode) Use `{% static '<path>' %}` for static resources e.g. css and image. `static` calculates the path to the static resources like so:
-
-  ```html
-  {% load static %}
-  ...
-  <link href="{% static 'newyear/styles.css' %}" rel="stylesheet">
-  ```
-
-  When `STATIC_URL = '/static/'` is in `settings.py`, the above href becomes `/static/newyear/styles.css`
-  
